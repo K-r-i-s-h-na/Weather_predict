@@ -10,7 +10,7 @@ import streamlit as st
 from streamlit_option_menu import option_menu
 
 # Load trained model
-w = pickle.load(open(r'weather_trained_model.sav', 'rb'))
+w = pickle.load(open(r'C:\internship\sav\weather(logistic).sav', 'rb'))
 
 
 def predict_weather(input_data):
